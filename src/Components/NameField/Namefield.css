@@ -1,0 +1,21 @@
+.fName {
+  margin: .3rem 0;
+  padding: 10px 5px;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  outline: none;
+  border-bottom: 1px solid gray;
+}
+
+.nameCOntainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  width: 45%;
+}
+/*# sourceMappingURL=Namefield.css.map */

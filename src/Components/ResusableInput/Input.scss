@@ -1,0 +1,17 @@
+.labelstwo{
+    margin-top: 1rem;
+}
+.details{
+    margin: .3rem 0;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    outline: none;
+    border-bottom: 1px solid gray;
+    padding: 10px 0;
+}
+
+.details:focus{
+    border-bottom: 2px solid #282C40
+    ;
+}

@@ -1,0 +1,151 @@
+.signUpContainer {
+  position: relative;
+  height: 100%;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.signupImage, .signupForm {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.signupImage {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.welcomemsg {
+  position: absolute;
+  line-height: 43.2px;
+  width: 400px;
+  color: white;
+  top: 75%;
+  font-size: 36px;
+}
+
+.signupImage img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: top;
+     object-position: top;
+}
+
+.signupForm {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 4rem 0 1rem 4rem;
+}
+
+.createAccount {
+  color: #272262;
+  text-align: left;
+}
+
+.create {
+  color: gray;
+  font-size: 1-px;
+}
+
+form {
+  width: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-flex: 2;
+      -ms-flex: 2;
+          flex: 2;
+}
+
+.names {
+  margin: 3rem 0 1rem 0;
+}
+
+.names {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.rest {
+  margin: 1.5rem 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.remember {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.rememberMe {
+  margin-left: 5px;
+}
+
+.forgot {
+  color: #272262;
+}
+
+.signUp {
+  color: white;
+  background-color: #3DB0FF;
+  padding: 15px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+}
+
+.getAnAccount {
+  margin-top: 1rem;
+  font-size: 10px;
+  color: gray;
+  text-align: center;
+}
+
+.signIN {
+  color: #3DB0FF;
+  font-size: 1rem;
+}
+/*# sourceMappingURL=signUp.css.map */

@@ -1,0 +1,17 @@
+.fName{
+    margin: .3rem 0;
+    padding: 10px 5px;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    outline: none;
+    border-bottom: 1px solid gray;
+}
+
+
+.nameCOntainer{
+    display: flex;
+    flex-flow: column;
+    width: 45%;
+
+}

@@ -1,0 +1,110 @@
+.signUpContainer{
+    position: relative;
+    height: 100%;
+}
+
+.container{
+    display: flex;
+
+}
+
+.signupImage, .signupForm{
+    flex: 1;
+}
+
+.signupImage{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.welcomemsg{
+    position: absolute;
+    line-height: 43.2px;
+    width: 400px;
+    color: white;
+    top: 75%;
+    font-size: 36px;
+}
+
+.signupImage img{
+    width: 100%;
+    object-fit: cover;
+    object-position: top;
+}
+
+.signupForm{
+    display: flex;
+    flex-flow: column;
+    // align-items: center;
+    justify-content: center;
+    padding: 4rem 0 1rem 4rem;
+}
+.createAccount{
+    color:#272262;
+    text-align: left;
+}
+
+.create{
+    color: gray;
+    font-size: 1-px;
+}
+
+form{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+}
+
+.names{
+    margin: 3rem 0 1rem 0;
+}
+
+.names{
+    display: flex;
+    justify-content: space-between;
+}
+
+.rest{
+    margin: 1.5rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.remember{
+    display: flex;
+    align-items: center;
+}
+.rememberMe{
+    margin-left: 5px;
+}
+
+.forgot{
+    color:#272262;
+}
+
+.signUp{
+    color: white;
+    background-color:  #3DB0FF;
+    padding: 15px ;
+    border-radius:5px;
+    border: none;
+    outline: none;
+}
+
+.getAnAccount{
+    margin-top: 1rem;
+    font-size: 10px;
+    color: gray;
+    text-align: center;
+}
+
+.signIN{
+    color: #3DB0FF;
+    font-size: 1rem;
+}

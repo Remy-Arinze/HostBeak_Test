@@ -1,0 +1,30 @@
+.navItemContainer{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+
+.logo{
+    width: 1rem;
+    flex: 1;
+}
+
+.linkName{
+    color: black;
+    font-size: 13px;
+}
+
+.collapse{
+    margin: .4rem 0 0 2.5rem ;
+}
+
+.subs{
+    font-size: 11px;
+    margin-top: .3rem;
+    cursor: pointer;
+}
+
+.Itemcontainer{
+    margin: 1.5rem 0;
+}
